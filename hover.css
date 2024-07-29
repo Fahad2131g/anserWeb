@@ -1,0 +1,40 @@
+#btn{
+
+    transition: 0.3s;
+}
+#googlelink{
+  color: #fbb040;
+  cursor: pointer;
+  font-weight: 700;
+}
+header{
+  z-index: 3;
+}
+.slider{
+  flex-basis: 52%;
+  position: relative;
+  margin-top: 10%;
+  z-index: 2;
+}
+
+nav .items ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+  }
+  nav .items ul li:hover::after{
+    width: 100%;
+  }
+  .socialicons li a:hover{
+    color: #3c3e47;
+  }
+  .arrow:hover{
+   color: yellow;
+  }
+  .endlinks li a:hover{
+    color: yellow;
+  }

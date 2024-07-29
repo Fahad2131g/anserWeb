@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="icon" type="png" href="./images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<script src="https://kit.fontawesome.com/05c178e0c6.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <title>Contact Us</title>
+</head>
+<body>
+ 
+     <!----- Navbar ----->
+
+     <header>
+      <nav>
+          <div class="logo">
+            <a href="index.html"><img src="./images/Logo.png" alt="logo"></a>
+          </div>
+          <div class="items">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="career.html">Career</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                 <li><button id="open" onclick="showmenu()"><i class="fa-solid fa-bars"></i></button></li>
+              </ul>
+          </div>
+      </nav>
+  <div class="openmenu">
+        <div class="items">
+            <ul>
+              <li><button id="close" onclick="hidemenu()"><i class="fa-solid fa-x"></i></button></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+  </div>
+      </header>
+  
+
+        <!------ Contact us ------->
+
+        <section class="mainpage">
+          <div class="heading">
+            <h1>Contact Us</h1>
+            <div class="line"></div>
+        </div> 
+            <div class="heroo">
+                <div class="contactform">
+                    <h2><span class="elementtwo"></span></h2>
+                    <div class="contact-form-container">
+                    <form method="post" class="contact-form" action="https://api.web3forms.com/submit"  method="POST" />
+                        <div class="name-fields">
+                            <div class="field">
+                                <input type="hidden" name="access_key" value="5205375f-5924-4597-9eec-0a344ad6fc5e">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="field">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+                        </div>
+            
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+            
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+    
+        <!------ Footer ------->
+
+<footer>
+    <div class="foot">
+      <div class="sociallinks">
+        <div class="copyr">
+          <p>Design by Ultrolon Studio Copyright &#169</p>
+        </div>
+        <div class="socialicons">
+          <ul>
+          <li><a href="https://www.artstation.com/ultrolon" target="_blank"><i class="fa-brands fa-artstation"></i></a></li>
+          <li><a href="https://www.instagram.com/ultrolonstudio" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/ultrolon-studio" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://x.com/Ultrolon_Studio" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+          <li><a href="https://m.youtube.com/channel/UCN_KFmPg3dZLT9fv6I9dOdw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="links">
+        <ul class="endlinks">
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms and condition</a></li>
+        </ul>
+        <div class="arrrow">
+        <a href=""><span class="arrow" onclick="goup()"><i class="fa-solid fa-arrow-up"></i></span></a>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script>
+    var typed = new Typed('.elementtwo', {
+      strings: ["Get in touch with our team", "Book a meeting online", "Let's start a conversation"],
+      typeSpeed: 10,
+      loop: true,
+      loopCount: Infinity,
+      backDelay: 3500,
+      showCursor: true,
+      backSpeed: 8,
+      smartBackspace: false,
+      cursorChar: '|'
+    });
+    </script>
+</body>
+</html>

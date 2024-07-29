@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Jost';
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --third-color: #fbb040;
+.darktheme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+    --header-padding: 1rem 0;
+    --content-padding: 0.2rem 0rem 1rem 0rem;
+    --border-color: #e4e4e7;
+    --title: 1rem;
+    --content: 0.95rem;
+    --icon-size: 1.5rem;
+} 
+}
+.apply a{
+  cursor: pointer;
+  font-weight: 700;
+  color: #000106;
+}
+.apply a:hover{
+  color: #6c757d;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+#open{
+    background: none;
+    font-size: 30px;
+    border: none;
+    display: none;
+    color: var(--primary-color);
+  }
+  #close{
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: #3c3e47;
+  }
+  .openmenu{
+    position: absolute;
+    top: 0%;
+    right: -40%;
+    height: 100%;
+    width: 40%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.5); /* Slight white tint */
+            backdrop-filter: blur(10px);
+              -webkit-backdrop-filter: blur(10px); 
+  }
+  .openmenu ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .openmenu .items ul a{
+    color: #3c3e47;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .openmenu ul li{
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+header{
+    padding: 12px 7.5%;
+    width: 100%;
+    background-color: var(--third-color);
+    position: fixed;
+    z-index: 3;
+}
+nav{
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo img{
+    width: 4rem;
+}
+.items ul{
+    display: flex;
+    gap: 30px;
+}
+.items ul li{
+    list-style: none;
+}
+.items ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.box{
+background-color: #fff;
+padding: 30px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+position: fixed;
+width: 500px;
+top: 25%;
+z-index: -9;
+}
+.box h2{
+    color: #6c757d;
+}
+.box p{
+    color: #6c757d;
+    font-weight: 500;
+}
+.hero{
+    display: flex;
+    padding: 30px 7.5%;
+    margin: 0 auto;
+}
+.title{
+    flex-basis: 45%;
+    margin-right: 80px;
+}
+.box h1{
+    font-size: 1.5rem;
+}
+.box h2{
+    font-size: 1.2rem;
+    padding: 8px 0px;
+}
+.box h3{
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+.overview p{
+    font-size: 22px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #6c757d;
+}
+.container h2{
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.container ul{
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.slider{
+    flex-basis: 52%;
+    position: relative;
+    margin-top: 10%;
+    z-index: 2;
+}
+.apply p{
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: 400;
+}
+.apply a{
+    color: #000106;
+    cursor: pointer;
+    font-size: 20px;
+}
+footer{
+    background-color: var(--third-color);
+    width: 100%;
+    height: auto;
+  }
+  #googlelink{
+    color: #fbb040;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 8px 7%;
+  }
+  .arrow{
+    font-size: 1.8rem;
+    color: #fff;
+    }
+    .copyr p{
+        color: #fff;
+      }
+      .socialicons a{
+       color: #fff;
+       font-size: 1.5rem;
+      }
+      .socialicons ul{
+        gap: 20px;
+        display: flex;
+      }
+      .socialicons ul li{
+        list-style: none;
+      }
+      .sociallinks{
+        align-items: left;
+      }
+      .endlinks{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+      }
+      
+      .links{
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+      }
+      .endlinks li a{
+        text-decoration: none;
+        color: #fff;
+      }

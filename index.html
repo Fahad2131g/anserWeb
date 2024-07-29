@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="icon" type="png" href="./images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<script src="https://kit.fontawesome.com/05c178e0c6.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <title>Ultrolon Studio</title>
+</head>
+<body>
+
+    <!----- Navbar ----->
+
+    <header>
+    <nav>
+        <div class="logo">
+          <a href="index.html"><img src="./images/Logo.png" alt="logo"></a>
+        </div>
+        <div class="items">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+               <li><button id="open" onclick="showmenu()"><i class="fa-solid fa-bars"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+<div class="openmenu">
+      <div class="items">
+          <ul>
+            <li><button id="close" onclick="hidemenu()"><i class="fa-solid fa-x"></i></button></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="career.html">Career</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+      </div>
+</div>
+    </header>
+
+    <!------ Home page ------->
+
+    <section class="home">
+        <div class="hero">
+            <div class="texts1">
+                <h1> <span>Your Game,</span> <br> Amplified</h1>
+                <div class="parent">
+                <p><span class="element"></span></p>
+              </div>
+                <a href="contactus.html" target="_blank"><button id="btn" style="cursor: pointer;" >Connect Now!</button></a>
+            </div>
+            <div class="pic1">
+                <img src="./images/Logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!------- Video ------->
+
+<section class="video">
+        <div class="video-container">
+            <video id="video" width="100%" controls>
+                <source src="./images/Final Video.mp4" type="video/mp4">
+            </video>
+            <div class="play-icon" id="play-icon">&#9658;</div>
+    </div>
+</section>
+
+<!-------- Testimonials --------->
+
+<section class="testimonials">
+    <div class="hero2">
+        <div class="heading">
+        <h1>Testimonials</h1>
+        <div class="line"></div>
+    </div> 
+    <div class="container">
+        <input type="radio" name="dot" id="one">
+        <input type="radio" name="dot" id="two">
+        <input type="radio" name="dot" id="three">
+        <input type="radio" name="dot" id="fore">
+        <input type="radio" name="dot" id="five">
+        <input type="radio" name="dot" id="six">
+        <input type="radio" name="dot" id="seven">
+        <div class="main-card">
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Fast & Looks good! Returning for more.</div>
+                 <div class="job">shaaheenkarabi (US)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/germany.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Great communication and very patiently fixing my model until it worked perfectly! It was a great experience!.</div>
+                 <div class="job">Canas (Germany)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Fixed issues without hand holding.</div>
+                 <div class="job">exceptionburr (US)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                 <img src="./images/kuwait.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Quick communication, and really good! Would recommend if your in the market.</div>
+                 <div class="job">Henry (Kuwait)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                 <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Service as described!. will work with him in future, really good at what he does!.</div>
+                 <div class="job">Ace (US)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                 <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Requested to have a skirted model weight painted and fixed and they delivered with exceptional results.</div>
+                 <div class="job">Squidy (US)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/Bosnia and Herzegovina.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">I love working with this guy!!!.</div>
+                 <div class="job">Omer Salkanovic (Bosnia and Herzegovina)
+                </div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/Australia.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Fast and straight to the point, did the task required and did it well.</div>
+                 <div class="job">Arlo (Australia)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/argentina.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Great work, fast and good communication.</div>
+                 <div class="job">Clrorojas (Argentina)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">They did a wonderful job. I highly recommend them to anyone getting into 3D.</div>
+                 <div class="job">Propski (US)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/uk.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Lovely seller, great open communication! My weight painted rig and all the blend shapes work perfectly!.</div>
+                 <div class="job">Livi (UK)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Quick responses and quality work.</div>
+                 <div class="job">Raspburri (US)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/italy.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Will work again with him, one of the few that puts good prices.</div>
+                 <div class="job">Weather (Italy)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Excellent and quick! Loved working with him.</div>
+                 <div class="job">Myomyo (US)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Fast turnaround and clear communication. Good to work with.</div>
+                 <div class="job">Mattglordano (US)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Needed face rigging for my existing Avatar's Eyes and Mouth and the artist was very helpful and communicative.</div>
+                 <div class="job"> Faithngames (US)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/germany.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Hes certified and perfect.</div>
+                 <div class="job">Benjamin (Germany)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/Australia.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">I love working with this artist! They are incredibly talented. Communication is excellent understanding. I will definitely be returning for future projects.</div>
+                 <div class="job">wallacejnr (Australia)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Incredible service. A++.</div>
+                 <div class="job">Nerdenvy (US)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/canada.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">very good work.</div>
+                 <div class="job">Jean (Canada)</div>
+               </div>
+             </div>
+            </div>
+            <div class="card">
+             <div class="content">
+               <div class="img">
+                <img src="./images/us.png" alt="">
+               </div>
+               <div class="details">
+                 <div class="name">Fast delivery and quick response to feedback. Thanks!.</div>
+                 <div class="job">Deejai (US)</div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <label for="one" class=" active one"></label>
+          <label for="two" class="two"></label>
+          <label for="three" class="three"></label>
+          <label for="fore" class="fore"></label>
+          <label for="five" class="five"></label>
+          <label for="six" class="six"></label>
+          <label for="seven" class="seven"></label>
+        </div>
+      </div>
+    </div>   
+</section>
+
+<!------ FAQ ------->
+
+<section class="faqs">
+  <div class="hero3">
+    <div class="heading">
+      <h1 class="twoheading">Frequently Asked Questions</h1>
+      <div class="line2"></div>
+  </div> 
+
+  <div class="accordion-container">
+    <details open>
+      <summary>
+        <span class="accordion-title">
+          Q: What software do you use for 3D modeling and game development?
+        </span>
+        <span class="accordion-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg></span>
+      </summary>
+      <div class="accordion-content">
+        We use Blender for all of our moodelling and Rigging work, for Texturing we use substance painter and for game development and landscape creation, we use Unreal Engine ( Version of your choice )
+      </div>
+    </details>
+    <details>
+      <summary>
+        <span class="accordion-title">
+          Q: Can we see more of your work.
+        </span>
+        <span class="accordion-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg></span>
+      </summary>
+      <div class="accordion-content">
+        You can check our work from Artstation <a href="https://www.artstation.com/ultrolon" target="blank">https://www.artstation.com/ultrolon</a>. You can aslo contact us directly to view more of our work and know our workflow.
+      </div>
+    </details>
+    <details>
+      <summary>
+        <span class="accordion-title">Q: What payment methods do you accept?</span>
+        <span class="accordion-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg></span>
+      </summary>
+      <div class="accordion-content">We accept various payment method such as escrow services like upwork and we can also send you invoice through payoneer.
+            </div>
+    </details>
+    <details>
+      <summary>
+        <span class="accordion-title">Q: Do you offer support after the project is completed?</span>
+        <span class="accordion-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg></span>
+      </summary>
+      <div class="accordion-content">Yes, we offer post-project support and can assist with any issues or updates needed after the project is delivered.
+      </div>
+    </details>
+    <details>
+      <summary>
+        <span class="accordion-title">Q. Can you get into a meeting?</span>
+        <span class="accordion-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg></span>
+      </summary>
+      <div class="accordion-content">Yes you can contact me by clicking here <a href="contactus.html" target="_blank">Contact Me</a></div>
+    </details>
+  </div>
+  </div>
+</section>
+
+<!------ Footer ------->
+
+<footer>
+  <div class="foot">
+    <div class="sociallinks">
+      <div class="copyr">
+        <p>Design by Ultrolon Studio Copyright &#169</p>
+      </div>
+      <div class="socialicons">
+        <ul>
+        <li><a href="https://www.artstation.com/ultrolon" target="_blank"><i class="fa-brands fa-artstation"></i></a></li>
+        <li><a href="https://www.instagram.com/ultrolonstudio" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ultrolon-studio" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://x.com/Ultrolon_Studio" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+        <li><a href="https://m.youtube.com/channel/UCN_KFmPg3dZLT9fv6I9dOdw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+      </ul>
+      </div>
+    </div>  
+    <div class="links">
+      <ul class="endlinks">
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms and condition</a></li>
+      </ul>
+      <div class="arrrow">
+      <a href=""><span class="arrow"><i onclick="goup()" class="fa-solid fa-arrow-up"></i></span></a>
+    </div>
+    </div>
+  </div>
+</footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('.element', {
+      strings: ["Ultrolon Studio is a game development powerhouse that helps studios bring their vision to life through top-notch services. Our team of experts delivers high-quality game development services that take your game to the next level.", "Ultrolon Studio is your one-stop partner for all your game development needs. Let us help you create an unforgettable gaming experience that leaves a lasting impact on players worldwide.", "Ultrolon Studio is a studio that empowers creators to bring their vision to life Our team of experts offers a wide range of services, from concept development to full-cycle game development, animation, and beyond."],
+      typeSpeed: 10,
+      loop: true,
+      loopCount: Infinity,
+      backDelay: 3500,
+      showCursor: true,
+      backSpeed: 8,
+      smartBackspace: false,
+      cursorChar: '█'
+    });
+    </script>
+</body>
+</html>

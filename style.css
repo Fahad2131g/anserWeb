@@ -163,19 +163,26 @@ nav .items ul li:hover::after{
 .texts1 {
     padding-bottom: 6rem;
     padding-right: 2.2rem;
-    padding-top: 45px;
+    padding-top: 30px;
 }
-.texts1 h1{
-    font-size: 3.2rem;
-    line-height: 1;
+.texts1 h2{
+    font-size: 2rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: var(--primary-color);
-    padding-bottom: 10px;
+    padding-bottom:25px;
+    line-height: 0.4;
+}
+@media (max-width: 1250px){
+  .texts1 h2{
+    font-size: 1.8rem;
+  }
+
 }
 .texts1 h1 span{
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
     color: var(--primary-color);
 }
 .texts1 .element{
@@ -623,14 +630,25 @@ body::before{
   font-size: 1.8rem;
   color: #fff;
   }
-  @media (max-width:1150px){
+  @media (max-width:1170px){
     .texts1 h1 span{
-      font-size: 4rem;
+      font-size: 3.4rem;
       font-family: "Poppins", sans-serif;
       color: var(--primary-color);
   }
+  .texts1 h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-color);
+    padding-bottom:25px;
+    line-height: 0.4;
+}
   .pic1 img{
     width: 25rem;
+  }
+  .texts1 .element{
+    font-size: 15px;
   }
   }
   @media (max-width: 1000px){
@@ -638,13 +656,11 @@ body::before{
       width: 22rem;
   }
   .texts1 p{
-    font-size: 14px;
+    font-size: 12px;
   }
-  .texts1 h1{
-    font-size: 2.1rem;
-  }
+ 
   .texts1 h1 span{
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
   footer ul li a{
     font-size: 12px;
@@ -661,17 +677,35 @@ body::before{
     overflow: hidden;
     padding: 80px 0 45px;
   }
+  .texts1 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-color);
+    padding-bottom:25px;
+    line-height: 0.4;
+}
   }
-  @media (max-width: 820px) {
+  @media (max-width: 850px) {
     .texts1 .element{
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 1.2;
     }
+   
     .main-card .cards .card{
       margin: 20px auto 10px auto;
       width: calc(100% / 2 - 10px);
     }
+    .texts1 h2{
+      font-size: 1.3rem;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      color: var(--primary-color);
+      padding-bottom:25px;
+      line-height: 0.4;
+  }
     .texts1 h1 span{
-      font-size: 2.8rem;
+      font-size: 2.6rem;
       font-family: "Poppins", sans-serif;
       color: var(--primary-color);
   }
@@ -830,11 +864,23 @@ video::-webkit-media-controls-play-button,
       font-weight: 400;
       line-height: 1.2;
     }
-    
+    .texts1 .element{
+      font-size: 15px;
+    }
   }
   @media (max-width:430px){
     .pic1 img{
       width: 18rem;
+    }
+    .card .content .name{
+      font-size: 12px;
+      font-weight: 500;
+      padding-top: 15px;
+    }
+    .card .content .job{
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--third-color);
     }
     .container{
       max-width: 320px;
@@ -842,11 +888,7 @@ video::-webkit-media-controls-play-button,
       overflow: hidden;
       padding: 80px 0 45px;
     }
-    .card .content .name{
-      font-size: 13px;
-      font-weight: 500;
-      padding-top: 15px;
-    }
+   
     .links{
       flex-direction: column;
     }
@@ -857,6 +899,12 @@ video::-webkit-media-controls-play-button,
     .links .endlinks li a{ 
      font-size: 14px;
     }
+    .texts1 h1 span{
+      font-size: 2.3rem;
+    }
+    .texts1 h2{
+      font-size: 1.2rem;
+    }
   }
   @media (max-width:340px){
     .pic1 img{
@@ -864,13 +912,13 @@ video::-webkit-media-controls-play-button,
       padding-bottom: 4px;
     }
     .texts1 h1 span{
-      font-size: 2.4rem;
+      font-size: 2.1rem;
     }
     .texts1 .element{
       font-size: 13px;
     }
-    .texts1 h1{
-      font-size: 2rem;
+    .texts1 h2{
+      font-size: 1.1rem;
     }
     .pic1 img{
       width: 15rem;
